@@ -16,7 +16,7 @@
 	    		var Shell = {lat:47.6187534, lng:-122.3441691}; 
 	    		var myOptions = {zoom:15,center:place,mapTypeId: google.maps.MapTypeId.ROADMAP};
 	    		map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-	    		//marker = new google.maps.Marker({map:map, position: place });
+	    		marker = new google.maps.Marker({map:map, position: place });
 	    		var markerK = new google.maps.Marker({
     				position: KedaiMakan,
 					map: map,
