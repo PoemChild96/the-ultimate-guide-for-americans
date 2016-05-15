@@ -131,6 +131,8 @@ p {
 }
 .about{
 	position: relative;
+	top: 10px;
+	left: 920px;
 	color: lightcyan;
 	text-decoration: none;
 	border: 1px solid lightcyan;
