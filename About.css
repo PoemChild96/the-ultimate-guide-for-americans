@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2016, 5:13:33 AM
+    Author     : emily01px2015
+*/
+body{
+    background-image:url("http://eskipaper.com/images/world-map-wallpaper-8.jpg");
+    background-size:cover;
+    font-family:Verdana;
+    font-size:20px;
+    color:white;
+}
+h1{
+    text-align:center;
+}
+p {
+    text-align: center;
+    width: 600px;
+}
+form {
+    padding:80px;
+    background-color: #d0e7e7;
+    border-radius: 10px
+}
+input, textarea {
+    border: 4px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 8px 10px;
+    resize: none;
+    outline: 0;
+    border-color: #c9cece;
+}
+textarea {
+    width: 600px;
+}
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    
+}
+input[type=submit] {
+    background-color: #dfe4e4;
+    text-decoration: none;
+    width: 20%;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #ced3d3;
+}
