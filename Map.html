@@ -85,13 +85,15 @@
 	    	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
 	    	<script type='text/javascript'>
 	    	function init_map(){
+	    		var place=new google.maps.LatLng(47.6101359,-122.3420567);
 	    		var myOptions = {zoom:14,center:new google.maps.LatLng(47.6101359,-122.3420567),mapTypeId: google.maps.MapTypeId.ROADMAP};
 	    		map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-	    		marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6101359,-122.3420567)});
+	    		marker = new google.maps.Marker({map: map,position: place });
 	    		infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
 	    		google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
+	      		//var request = {location: place, radius: '500', types: ['store']};
 	    	}
-	    		google.maps.event.addDomListener(window, 'load', init_map);
+	    	google.maps.event.addDomListener(window, 'load', init_map);
 	    	
 	    	</script>
 	</body>
