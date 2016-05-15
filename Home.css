@@ -130,8 +130,8 @@ p {
 	}
 }
 .about{
-	margin-top: 10%;
-	left: 920px;
+	margin-top: 0px;
+	margin-right: 5%;
 	color: lightcyan;
 	text-decoration: none;
 	border: 1px solid lightcyan;
