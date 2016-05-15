@@ -20,12 +20,14 @@
 	    		var markerK = new google.maps.Marker({
     				position: KedaiMakan,
 				map: map,
-    				title: 'Kedai Makan'
+    				title: 'Kedai Makan',
+    				animation: google.maps.Animation.DROP
   				});
 	    		var markerS = new google.maps.Marker({
     				position: Shell,
 				map: map,
-    				title: 'Shell'
+    				title: 'Shell',
+    				animation: google.maps.Animation.DROP
   				});  				
 	    		infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
 	    		infowindowK = new google.maps.InfoWindow({content:'<strong> Kedai Makan</strong>'});
