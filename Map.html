@@ -56,7 +56,7 @@
 		var infowindow;
 	    	function init_map(){
 	    		var place = new google.maps.LatLng(47.6101359,-122.3420567);
-	    		var myOptions = {zoom:13,center:place,mapTypeId: google.maps.MapTypeId.ROADMAP};
+	    		var myOptions = {zoom:15,center:place,mapTypeId: google.maps.MapTypeId.ROADMAP};
 	    		map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
 	    		marker = new google.maps.Marker({map:map, position: place });
 	    		infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
