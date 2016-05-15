@@ -33,7 +33,7 @@
 	    		infowindowK = new google.maps.InfoWindow({content:'<strong> Kedai Makan</strong>'});
 	    		infowindowS = new google.maps.InfoWindow({content:'<strong> Shell </strong>'});
 	    		google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
-	    		google.maps.event.addListener(markerK, 'mouseover', function(){infowindowK.open(map,markerK);}, 'mouseout', function(){infowindowK.close()};);
+	    		google.maps.event.addListener(markerK, 'mouseover', function(){infowindowK.open(map,markerK);});
 	    		google.maps.event.addListener(markerS, 'mouseover', function(){infowindowS.open(map,markerS);};
 			//google.maps.event.addListener(markerK, 'mouseout', function(){infowindowK.close(map, markerK)};
 			//google.maps.event.addListener(markerS, 'mouseout', function(){infowindowS.close(map,markerS);};
