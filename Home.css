@@ -31,7 +31,7 @@ h2 {
 }
 p {
 	position: relative;
-    top: 60%;
+    top: 450px;
     text-align: center;
     width: 450px;
     left: 30%;
@@ -75,8 +75,8 @@ p {
 }
 .button {
 	position: relative;
-    top: 120%;
-    left: 40%;
+    top: 700;
+    left: 35%;
     border: none;
     color: black;
     font-size: 20px;
@@ -136,7 +136,7 @@ p {
 }
 .about{
 	position: relative;
-	top: 180%;
+	top: 800;
 	left: 25%;
 	color: lightcyan;
 }
