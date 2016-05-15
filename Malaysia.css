@@ -19,22 +19,20 @@ h1 {
     text-align: center;
     color: white;
 }
-.division {
-    height: 300px;
-    position: relative;
-    left: 2px;
-    top: 100px;
+div {
+    overflow: auto;
 }
 img {
+    margin-top: 13px;
+    float: left;
     height: 300px;
 }
 p {
+    float: left;
     background-color:rgba(250,250,250,0.7);
-    margin-top:0px;
-    padding:50px 10px 50px 10px;
-    position: relative;
-    top: 100px;
-    left: 300px;
+    margin-left: 10px;
+    padding:130px 140px 130px 140px;
+    width: 500px;
 }
 .button {
     font:Verdana;
