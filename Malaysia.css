@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 body {
     background-image: url("http://s1.picswalls.com/wallpapers/2014/08/08/beautiful-malaysia-wallpaper_020551193_166.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 h1 {
     font-family: Impact, Charcoal, sans-serif;
