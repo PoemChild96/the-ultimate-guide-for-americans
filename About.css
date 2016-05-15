@@ -35,13 +35,13 @@ input, textarea {
     outline: 0;
     border-color: #c9cece;
     box-align: center;
-    margin: 8px 340px;
+    margin: 8px 380px;
 }
 textarea {
     width: 400px;
 }
 input[type=text], select {
-    width: 30%;
+    width: 35%;
     padding: 12px 20px;
     display: inline-block;
     border: 2px solid #ccc;
@@ -53,7 +53,7 @@ input[type=submit] {
     text-decoration: none;
     width: 10%;
     cursor: pointer;
-    margin: 8px 400px;
+    margin: 8px 500px;
 }
 input[type=submit]:hover {
     background-color: #ced3d3;
