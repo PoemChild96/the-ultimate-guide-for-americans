@@ -7,19 +7,23 @@ and open the template in the editor.
     Created on : May 15, 2016, 1:49:41 AM
     Author     : emily01px2015
 */
+body {
+    background-image: url("http://s1.picswalls.com/wallpapers/2014/08/08/beautiful-malaysia-wallpaper_020551193_166.jpg");
+    background-attachment: scroll;
+}
 h1 {
     font-family: Impact, Charcoal, sans-serif;
     color:#FFFFFF;
     letter-spacing: 1px;
     margin-top:50px;
-    margin-bottom:50px;
     text-align: center;
     color: white;
 }
 .division {
     height: 300px;
-    float:left;
-    margin-top: 100px;
+    position: relative;
+    left: 2px;
+    top: 100px;
 }
 img {
     height: 300px;
@@ -27,7 +31,10 @@ img {
 p {
     background-color:rgba(250,250,250,0.7);
     margin-top:0px;
-    padding:0px 150px 0px 150px;
+    padding:50px 10px 50px 10px;
+    position: relative;
+    top: 100px;
+    left: 300px;
 }
 .button {
     font:Verdana;
@@ -42,7 +49,9 @@ p {
     cursor: pointer;
     color: white;
     border: 2px solid #e7e7e7;
-    background-color:rgba(0,0,0,0.5)
+    background-color:rgba(0,0,0,0.5);
+    position: relative;
+    top: 500px;
 }
 .button:hover {
     background-color: rgba(128,128,128, 0.5);
