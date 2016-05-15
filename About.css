@@ -19,7 +19,7 @@ h1{
 }
 p {
     text-align: center;
-    margin-left: 360px;
+    margin-left: 340px;
     width: 600px;
 }
 form {
@@ -34,9 +34,10 @@ input, textarea {
     resize: none;
     outline: 0;
     border-color: #c9cece;
+    box-align: center;
 }
 textarea {
-    width: 600px;
+    width: 400px;
 }
 input[type=text], select {
     width: 40%;
