@@ -54,7 +54,8 @@ input[type=submit] {
     text-decoration: none;
     width: 10%;
     cursor: pointer;
-    margin: 8px 600px;
+    margin-left: 550px;
+    margin-top: 8px;
 }
 input[type=submit]:hover {
     background-color: #ced3d3;
