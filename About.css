@@ -35,6 +35,7 @@ input, textarea {
     outline: 0;
     border-color: #c9cece;
     box-align: center;
+    margin: 8px 100px;
 }
 textarea {
     width: 400px;
@@ -42,7 +43,6 @@ textarea {
 input[type=text], select {
     width: 40%;
     padding: 12px 20px;
-    margin: 8px 0;
     display: inline-block;
     border: 2px solid #ccc;
     border-radius: 6px;
