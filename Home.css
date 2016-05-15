@@ -8,13 +8,18 @@ and open the template in the editor.
     Author     : emily01px2015
 */
 body {
+    font: verdana;
+    color: white;
+}
+
+body:after{
     background-image: url("http://all4desktop.com/data_images/original/4238689-nature-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font: verdana;
-    color: white;
-    opacity: 0.7;
+    opacity: 0.5;
 }
+
+
 h1 {
 	position: relative;
     left: 300px;
