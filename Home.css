@@ -8,8 +8,7 @@ and open the template in the editor.
     Author     : emily01px2015
 */
 body {
-    font: verdana;
-    color: white;
+    position: relative;
 }
 
 body::after{
@@ -19,6 +18,8 @@ body::after{
     background-repeat: no-repeat;
     opacity: 0.5;
     z-index:-1;
+    font: verdana;
+    color: white;
 }
 
 
