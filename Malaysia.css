@@ -35,14 +35,14 @@ div {
     width: 500px;
 }
 .rightImg {
-    margin-top: 10px;
+    margin-top: 0px;
     float: right;
     height: 300px;
 }
 .rightP {
     float: right;
     background-color:rgba(250,250,250,0.7);
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right: 10px;
     padding:130px 170px 130px 170px;
     width: 500px;
