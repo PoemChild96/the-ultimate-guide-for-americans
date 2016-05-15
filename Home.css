@@ -18,12 +18,14 @@ h1 {
     position: relative;
     left: 300px;
     font-size: 50px;
+    margin-right: 10%;
 }
 h2 {
     position: relative;
     left: 600px;
     top: 30px;
     font-size: 30px;
+    margin-right: 10%;
 }
 p {
     position: relative;
@@ -132,7 +134,7 @@ p {
 .about{
 	position: relative;
 	top: 300px;
-	left: 320px;
+	left: 280px;
 	color: lightcyan;
 	text-decoration: none;
 	border: 1px solid lightcyan;
