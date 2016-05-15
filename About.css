@@ -37,7 +37,7 @@ input, textarea {
     outline: 0;
     border-color: #c9cece;
     box-align: center;
-    margin: 5px 420px;
+    margin: 5px 415px;
 }
 textarea {
     width: 410px;
@@ -55,7 +55,7 @@ input[type=submit] {
     text-decoration: none;
     width: 10%;
     cursor: pointer;
-    margin-left: 550px;
+    margin-left: 570px;
     margin-top: 2px;
 }
 input[type=submit]:hover {
