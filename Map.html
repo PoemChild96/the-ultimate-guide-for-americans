@@ -43,7 +43,7 @@
 		</style-->
 	</head>
 	<body>
-		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+		<!--script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 		<div style='overflow:hidden;height:800px;width:1400px;'>
 			<div id='gmap_canvas' style='height:800px;width:1400px;'></div>
 			<div><small>
@@ -71,17 +71,27 @@
 				 			createMarker(results[i]);
 				  		}
 				 	}
-				}*/
+				}
 			
-			</script>
+			</script-->
 		<!--script src="https://maps.googleapis.com/maps/api/js?key={AIzaSyBmfw3qXffywpIDd42fkq9Sd1Tus5L6Gco}"></script>
 		<div class="map-embed">
 			<div style="height:100%; width:100%;" id="map-canvas"></div>
 	    	</div-->
-	    	<!--script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+	    	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 	    	<div style='overflow:hidden;height:800px;width:1400px;'><div id='gmap_canvas' style='height:800px;width:1400px;'></div>
 	    	<div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
 	    	<div><small><a href="http://misshowtostartablog.com/">how to start a blog</a></small></div>
-	    	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(47.6101359,-122.3420567),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6101359,-122.3420567)});infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script-->
+	    	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+	    	<script type='text/javascript'>
+	    	function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(47.6101359,-122.3420567),
+	    	mapTypeId: google.maps.MapTypeId.ROADMAP};
+	    	map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+	    	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6101359,-122.3420567)});
+	    	infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
+	    	google.maps.event.addListener(marker, 'click', 
+	    	function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+	    	google.maps.event.addDomListener(window, 'load', init_map);
+	    	</script>
 	</body>
 </html>
