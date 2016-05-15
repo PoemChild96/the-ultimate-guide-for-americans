@@ -16,15 +16,19 @@ body::after{
     background-image: url("http://all4desktop.com/data_images/original/4238689-nature-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
     opacity: 0.5;
     z-index:-1;
     font: verdana;
     color: white;
 }
 
-
 h1 {
-	position: relative;
+　　position: relative;
     left: 300px;
     font-size: 50px;
     margin-right: 0px;
