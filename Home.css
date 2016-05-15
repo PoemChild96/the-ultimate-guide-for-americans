@@ -76,13 +76,13 @@ p {
     top: 230px;
     left: 460px;
     border: none;
-    color: #33ecde;
+    color: black;
     font-size: 20px;
     text-align: center;
     height: 45px;
     padding: 12px 40px;
     border-radius: 50px;
-    background-color: #f3fefe;
+    background-color: #c4fbd5;
     cursor: pointer;
     text-decoration: none;
 }
