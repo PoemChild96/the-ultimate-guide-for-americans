@@ -13,7 +13,10 @@ body {
     font: verdana;
     color: white;
 }
-
+div{
+	width:450px;
+	text-align:center;
+}
 h1 {
 　　position: relative;
     text-align:center;
@@ -28,10 +31,10 @@ h2 {
 }
 p {
 	position: relative;
-    top: 150px;
+    top: 60px;
     text-align: center;
     width: 450px;
-    left: 380px;
+    left: 90%;
     font-size: 20px;
     visibility: hidden;
     color: #fcebd5;
@@ -72,7 +75,7 @@ p {
 }
 .button {
 	position: relative;
-    top: 230px;
+    top: 150px;
     left: 460px;
     border: none;
     color: black;
@@ -133,7 +136,7 @@ p {
 }
 .about{
 	position: relative;
-	top: 295px;
+	top: 200px;
 	left: 290px;
 	color: lightcyan;
 }
