@@ -130,7 +130,7 @@ p {
 	}
 }
 .about{
-	position: fixed;
+	position: absolute;
 	top: 10px;
 	left: 920px;
 	color: lightcyan;
