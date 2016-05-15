@@ -30,8 +30,9 @@ h2 {
     margin-right: 0px;
 }
 p {
-	margin-top: 50px;
-	margin-left: 300px;
+	margin-top: 100px;
+	margin-left: 250px;
+	width: 100px;
     text-align: center;
     font-size: 20px;
     visibility: hidden;
@@ -72,9 +73,8 @@ p {
 	}		
 }
 .button {
-	position: relative;
-    top: 700;
-    left: 37%;
+	margin-top: 500px;
+	margin-left: 250;
     border: none;
     color: black;
     font-size: 20px;
@@ -133,8 +133,7 @@ p {
 	}
 }
 .about{
-	position: relative;
-	top: 800;
-	left: 25%;
+	margin-top: 700px;
+	margin-left: 250px;
 	color: lightcyan;
 }
