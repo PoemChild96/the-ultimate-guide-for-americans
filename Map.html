@@ -48,19 +48,22 @@
 			<div id='gmap_canvas' style='height:800px;width:1400px;'></div>
 			<div><small>
 			<a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
-			<div><small><a href="http://misshowtostartablog.com/">start a blog</a></small></div>
 			<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-			<script type='text/javascript'>function init_map(){
-				var place = new google.maps.LatLng(47.6101359,-122.3420567);
-				var myOptions = {zoom:14, center:place,mapTypeId: google.maps.MapTypeId.ROADMAP};
-				map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-				marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6101359,-122.3420567)});
-				infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
-				google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
-				google.maps.event.addDomListener(window, 'load', init_map);
-				var request = {location: place, radius: '500', types: ['malaysian restaurant']};
-				service = new google.maps.places.PlacesService(map);
-		  		
+			<script type='text/javascript'>
+				function init_map(){
+					var place = new google.maps.LatLng(47.6101359,-122.3420567);
+					var myOptions = {zoom:14, center:place,mapTypeId: google.maps.MapTypeId.ROADMAP};
+					map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+					marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.6101359,-122.3420567)});
+					infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
+					google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
+				
+					google.maps.event.addDomListener(window, 'load', init_map);
+					var request = {location: place, radius: '500', types: ['malaysian restaurant'];
+						service = new google.maps.places.PlacesService(map);
+						service.nearbySearch(request, callback);
+					};
+				}
 				function callback(results, status) {
 					if (status == google.maps.places.PlacesServiceStatus.OK) {
 		    				for (var i = 0; i < results.length; i++) {
@@ -69,7 +72,7 @@
 				  		}
 				 	}
 				}
-				service.nearbySearch(request, callback);
+			
 			</script>
 		<!--script src="https://maps.googleapis.com/maps/api/js?key={AIzaSyBmfw3qXffywpIDd42fkq9Sd1Tus5L6Gco}"></script>
 		<div class="map-embed">
