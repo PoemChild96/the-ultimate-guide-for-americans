@@ -65,6 +65,7 @@ div {
     background-color:rgba(0,0,0,0.5);
     position: relative;
     top: 500px;
+    float: bottom;
 }
 .button:hover {
     background-color: rgba(128,128,128, 0.5);
