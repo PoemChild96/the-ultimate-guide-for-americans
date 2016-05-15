@@ -91,7 +91,7 @@
 	    		marker = new google.maps.Marker({map: map,position: place });
 	    		infowindow = new google.maps.InfoWindow({content:'<strong>You are here</strong><br>Pike Place Market<br>'});
 	    		google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
-	      		//var request = {location: place, radius: '500', types: ['store']};
+	      		var request = {location: place, radius: '500', types: ['store']};
 	    	}
 	    	google.maps.event.addDomListener(window, 'load', init_map);
 	    	
