@@ -16,14 +16,13 @@ body {
 
 h1 {
 　　position: relative;
-    left: 300px;
+    text-align:center;
     font-size: 50px;
     margin-right: 0px;
 }
 h2 {
 	position: relative;
-    left: 600px;
-    top: 30px;
+    text-align:center;
     font-size: 30px;
     margin-right: 0px;
 }
