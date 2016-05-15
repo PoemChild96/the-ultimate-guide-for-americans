@@ -24,6 +24,9 @@ h1 {
 div {
     overflow: auto;
 }
+p {
+    font-size: 25px;
+}
 .leftImg {
     margin-top: 0px;
     margin-left: 6px;
