@@ -8,31 +8,15 @@ and open the template in the editor.
     Author     : emily01px2015
 */
 body {
-    position: relative;
-    background: #FFFFFF;
-    overflow: hidden;
-}
-
-body:after{
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.6;
-	background-image: url("http://all4desktop.com/data_images/original/4238689-nature-background.jpg");
+ 	background-image: url("http://wallpapershacker.com/wallpaper/bamboo_paths_trail_asia_hd-wallpaper-917561.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
     font: verdana;
     color: white;
+}
+
+img{
+	
 }
 
 h1 {
