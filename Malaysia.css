@@ -24,6 +24,7 @@ div {
 }
 .leftImg {
     margin-top: 13px;
+    margin-left: 10px;
     float: left;
     height: 300px;
 }
@@ -36,6 +37,7 @@ div {
 }
 .rightImg {
     margin-top: 0px;
+    margin-right: 10px;
     float: right;
     height: 300px;
 }
