@@ -30,11 +30,9 @@ h2 {
     margin-right: 0px;
 }
 p {
-	position: relative;
-    top: 400px;
+	margin-top: 50px;
+	margin-left: 300px;
     text-align: center;
-    width: 450px;
-    left: 30%;
     font-size: 20px;
     visibility: hidden;
     color: #fcebd5;
