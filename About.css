@@ -19,11 +19,11 @@ h1{
 }
 p {
     text-align: center;
-    margin-left: 400px;
+    margin-left: 360px;
     width: 600px;
 }
 form {
-    padding: 10px 40px;
+    padding: 40px 20px;
     background-color: #d0e7e7;
     border-radius: 10px
 }
