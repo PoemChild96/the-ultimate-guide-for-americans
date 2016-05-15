@@ -8,15 +8,11 @@ and open the template in the editor.
     Author     : emily01px2015
 */
 body {
- 	background-image: url("http://wallpapershacker.com/wallpaper/bamboo_paths_trail_asia_hd-wallpaper-917561.jpg");
+    background-image: url("http://wallpapershacker.com/wallpaper/bamboo_paths_trail_asia_hd-wallpaper-917561.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font: verdana;
     color: white;
-}
-
-img{
-	
 }
 
 h1 {
