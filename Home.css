@@ -35,6 +35,7 @@ p {
     left: 380px;
     font-size: 20px;
     visibility: hidden;
+    color: #eea23d;
 }
 .fadeIn{
 	animation-name: fadeIn;
@@ -75,13 +76,13 @@ p {
     top: 230px;
     left: 460px;
     border: none;
-    color: #27e7a7;
+    color: #33ecde;
     font-size: 20px;
     text-align: center;
     height: 45px;
     padding: 12px 40px;
     border-radius: 50px;
-    background-color: #b4faf6;
+    background-color: #1533b2;
     cursor: pointer;
     text-decoration: none;
 }
